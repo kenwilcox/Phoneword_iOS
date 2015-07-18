@@ -53,4 +53,8 @@
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Default.png" width="320" height="480"/>
+        <image name="Default-568h.png" width="640" height="1136"/>
+    </resources>
 </document>
