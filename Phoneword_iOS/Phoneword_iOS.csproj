@@ -69,6 +69,12 @@
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-29.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-57.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-58.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-80.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-114.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-120.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
@@ -89,4 +95,9 @@
     <Compile Include="PhoneTranslator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <BundleResource Include="Resources\Default.png" />
+    <BundleResource Include="Resources\Default%402x.png" />
+    <BundleResource Include="Resources\Default-568h%402x.png" />
+  </ItemGroup>
 </Project>
