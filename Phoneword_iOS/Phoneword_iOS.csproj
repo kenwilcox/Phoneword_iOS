@@ -92,12 +92,17 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="PhoneTranslator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <BundleResource Include="Resources\Default.png" />
     <BundleResource Include="Resources\Default%402x.png" />
     <BundleResource Include="Resources\Default-568h%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Phoneword_iOS.Lib\Phoneword_iOS.Lib.csproj">
+      <Project>{E6E70F1E-3921-4B78-A6C0-8C797FA9AAF4}</Project>
+      <Name>Phoneword_iOS.Lib</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
